@@ -1,0 +1,11 @@
+$theme-color: #14b8a6;
+
+#nprogress .bar {
+  background: $theme-color !important;
+  height: 3px !important;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: $theme-color !important;
+  border-left-color: $theme-color !important;
+}

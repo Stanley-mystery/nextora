@@ -1,0 +1,62 @@
+/* pagination.css */
+.custom-pagination-table {
+  width: 100% !important;
+}
+.custom-pagination-table .ant-pagination {
+  display: flex !important;
+  /* justify-content: space-between !important; */
+  align-items: center !important;
+  width: 100% !important;
+  border: none !important;
+  outline: none !important;
+}
+
+/* Left side: Rows per page */
+.custom-pagination-table .ant-pagination-options {
+  order: -1;
+  margin-left: 0;
+}
+.custom-pagination-table li:not(.ant-pagination-options) {
+  border: 1px solid #e4e4e7 !important;
+  height: 37px !important;
+}
+.custom-pagination-table .ant-pagination-options::before {
+  content: 'Showing:';
+  margin: 0 8px;
+  height: auto !important;
+  color: rgba(0, 0, 0, 0.85);
+  align-self: flex-start !important;
+  justify-self: start !important;
+  flex: 1;
+}
+
+.custom-pagination-table .ant-pagination-prev {
+  border-top-left-radius: 6px !important;
+  border-bottom-left-radius: 6px !important;
+}
+
+.custom-pagination-table .ant-pagination-next {
+  border-top-right-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+}
+
+.custom-pagination-table .ant-pagination-item-active {
+  background: #d1d5db;
+  color: currentColor;
+}
+
+.custom-pagination-table .ant-pagination-item-active a {
+  color: currentColor !important;
+}
+
+/* Dropdown styling */
+.custom-pagination-table .ant-select-selector {
+  border: none !important;
+  outline: none !important;
+  border-radius: 6px;
+}
+
+/* Push pagination block to the right */
+.custom-pagination-table .ant-pagination-prev {
+  margin-left: auto !important;
+}

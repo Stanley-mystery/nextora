@@ -1,0 +1,71 @@
+// .input {
+//   @apply w-full;
+
+//   :global(.ant-form-item-control-input-content .ant-input-affix-wrapper.ant-input-outlined) {
+//     @apply rounded-full py-3 px-5;
+
+//     &:focus-within {
+//       @apply border border-slate-400;
+
+//       .ant-input-suffix {
+//         @apply visible;
+//       }
+//     }
+
+//     input:not(:empty) {
+//       background: #f9fafb;
+//     }
+
+//     .ant-input-suffix {
+//       @apply invisible;
+//     }
+
+//     &.ant-input-password .ant-input-suffix {
+//       @apply visible;
+//     }
+//   }
+
+//   :global(.ant-input-outlined) {
+//     @apply shadow-none;
+//     border-color: #ebecef;
+
+//     &:focus {
+//       @apply border-slate-400;
+//       box-shadow: none;
+//     }
+
+//     &:focus:hover:not(&:focus) {
+//       @apply border-slate-400;
+//     }
+//   }
+// }
+
+// .otp {
+//   :global(.ant-otp-input) {
+//     @apply bg-green-light rounded-full border-[#C6F1F0];
+
+//     padding-inline: none;
+//     line-height: normal;
+//     padding: 16px 14px 8px !important;
+//     font-size: 1.3rem;
+
+//     &:focus,
+//     &:hover {
+//       @apply bg-green-light border-[#C6F1F0];
+//     }
+//   }
+// }
+
+// .search {
+//   :global(.ant-input-affix-wrapper) {
+//     @apply bg-transparent border border-gray-200 rounded-full px-4 #{!important};
+//   }
+
+//   :global(.ant-input-group-addon) {
+//     @apply hidden;
+//   }
+
+//   :global(.ant-input.ant-input-lg) {
+//     @apply text-sm pl-2;
+//   }
+// }

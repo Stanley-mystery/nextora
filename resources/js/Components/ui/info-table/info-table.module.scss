@@ -1,0 +1,35 @@
+.table {
+  &:global(
+    .ant-descriptions.ant-descriptions-bordered
+      > .ant-descriptions-view
+      .ant-descriptions-row
+      > .ant-descriptions-item-label
+  ) {
+    @apply bg-transparent;
+    width: 20%;
+    white-space: nowrap;
+  }
+
+  &:global(
+    .ant-descriptions.ant-descriptions-bordered
+      > .ant-descriptions-view
+      .ant-descriptions-row
+      > .ant-descriptions-item-label
+      span
+  ) {
+    color: #444;
+    font-weight: 500;
+    max-width: 60ch;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &:global(
+    .ant-descriptions.ant-descriptions-bordered.ant-descriptions-small
+      .ant-descriptions-row
+      > .ant-descriptions-item-label
+  ) {
+    padding: 10px 16px;
+  }
+}

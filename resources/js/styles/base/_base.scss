@@ -1,0 +1,18 @@
+html,
+body {
+  @apply font-primary m-0 p-0 text-[0.95rem];
+  letter-spacing: -0.15px;
+}
+
+hr {
+  @apply text-slate-100;
+}
+
+a:hover {
+  color: currentColor;
+}
+
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+}
